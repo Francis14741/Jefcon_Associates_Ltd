@@ -1,0 +1,87 @@
+<%- include('partials/Head') %>
+<body
+  section
+  class="featurette bg-primary"
+  style="
+    background: url('https://jefconassociates.com/wp-content/themes/jefcon-pentagon/assets/images2/dark-green-background.jpg')
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  "
+/>
+<%- include('partials/navbar') %>
+<section
+  class="featurette bg-primary"
+  style="
+    background: url('https://jefconassociates.com/wp-content/themes/jefcon-pentagon/assets/images2/dark-green-background.jpg')
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  "
+>
+  <h4
+    class="display-6 mb-md-2 mt-5 text-start mb-3 pb-3 text-decoration-underline text-light"
+  >
+    <em>Search Results For: Blogs</em>
+  </h4>
+  <h4
+    class="display-8 mb-md-2 mt-5 text-start mb-3 pb-3 text-decoration-underline text-light"
+  >
+    <em><strong>Privacy Policy</strong></em>
+  </h4>
+  <p class="lead text-center pl-3 pr-3 text-light">
+    <em>
+      Who we are Our website address is: https://jefconassociates.com/blogs1.
+      <br />
+      What personal data we collect and why we collect it Comments When visitors
+      leave comments on the site we collect the data shown in the comments form,
+      and also the visitor’s IP address and browser user agent string to help
+      spam detection. An anonymised string created from [...]
+    </em>
+  </p>
+  <form
+    id="searchform"
+    class="search2"
+    role="search"
+    method="post"
+    action="/search"
+  >
+    <div class="input-group">
+      <input
+        type="text"
+        name="search"
+        id="test"
+        class="search2"
+        placeholder="Search"
+        title="Search"
+        size="10"
+        maxlength="255"
+        required
+      />
+      <button
+        id="test"
+        type="text"
+        name="submit"
+        class="search2 btn btn-outline-light text-light"
+        style="background-color: #6d835c"
+      >
+        Search
+      </button>
+    </div>
+  </form>
+  <script type="text/javascript">
+    document.getElementById("searchform").onsubmit = function () {
+      window.location =
+        "http://www.google.com/search?q=site:https://github.com/Francis14741/Jefcon_Associates_Ltd.git" +
+        document.getElementById("test").value;
+      return false;
+    };
+  </script>
+</section>
+<%- include('partials/footer') %>

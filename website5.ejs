@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Prompt", sans-serif;
+        color: lightgreen;
+        background: #6D835C;
+        overflow-x: hidden;
+      }
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        padding: 100px 20vh;
+      }
+
+      .pale {
+        background:  #6d835c;
+      }
+
+      .olivedrab {
+        background: olivedrab;
+      }
+
+      .green {
+        background: rgb(157, 219, 157);
+      }
+
+      .dark {
+        background: #121222;
+      }
+
+      .grey{
+        background: grey;
+      }
+      
+      /* Default height for small devices */
+      #intro-example {
+        height: 500px;
+        width: auto;
+      }
+
+      /* Height for devices larger than 992px */
+      @media (min-width: 992px) {
+        #intro-example {
+          height: 600px;
+          width: 100%;
+        }
+      }
+
+      .back-video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -4;
+      }
+
+      @media (min-aspect-ratio: 16/9) {
+        .back-video {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      @media (min-aspect-ratio: 16/9) {
+        .back-video {
+          width: auto;
+          height: 100%;
+        }
+      }
+    </style>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+        crossorigin="anonymous"
+      />
+    <style>
+      .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+          .bd-placeholder-img-md {
+          font-size: 3.5rem;
+        }
+      }
+    </style>  
+  </head>
+  <body section class="featurette bg-primary"  style="background: url('https://jefconassociates.com/wp-content/themes/jefcon-pentagon/assets/images2/dark-green-background.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;" /> 
+  <%- include('partials/navbar') %>
+  <section class="featurette bg-primary"  style="background: url('https://jefconassociates.com/wp-content/themes/jefcon-pentagon/assets/images2/dark-green-background.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;">
+    <body>
+      <div id="previous-next-parent" style="margin-left: auto;">
+        <h3 class="lead pr-4 pb-3">
+          <a href="/blogs_page4"><em>Newer Post</em><i> ↠ </i></a></h3>
+      </div>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 mb-sm-0">
+              <div class="card mt-3" style="background-color: #6d835c">
+                <img src="images/SampleImg.jpg" alt="SampleImg" />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mt-3" style="background-color: #6d835c">
+                <div class="card-body text-center">
+                  <ul class="accordion">
+                    <li>
+                      <input type="radio" name="accordion" id="first" checked />
+                      <label for="first" class="lead text-light"
+                        ><a href="/sample_post" class="lead text-light">
+                          <strong
+                            ><em>Sample Post</em>
+                          </strong>                      
+                        </a></label
+                      >
+                      <div class="content">
+                        <span style="display: flex; align-content: flex-start"
+                          ><a
+                            href="/archives_2020_may"
+                            class="btn btn-success text-light"
+                            style="border-color: #fff; background-color: #6d835c"
+                          >
+                            Posted on 24 May 2020 - 6:33 pm<a
+                              class="btn btn-success text-light"
+                              href="/abdul_yahaya_Archive"
+                              style="
+                                text-decoration: none;
+                                background-color: #6d835c;
+                                border-color: #fff;
+                              "
+                              ><em>By, Abdul M. Yahaya</em></a
+                            ></a
+                          >
+                        </span>
+                        <p class="lead text-light pr-3 pt-3">                
+                          <em
+                            >What is a Stormwater? <br> Stormwater, which can also be spelled as storm water, is a body of water that formed as a result of rainfall, snow or ice melt. Stormwater can infiltrate the soil, be stored on the land surface in ponds and puddles, evaporate, or resolved to runoff. Most runoff is conveyed directly to [...]</em
+                          >
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div id="previous-next-parent">
+          <h3 class="lead pl-4 pr-4 pb-2" style="margin-left: auto;"><a href="/blogs_page4"><em>Newer Post</em><i> ↠ </i></a></h3>
+        </div>
+      </div>
+      <script>
+        const acc = document.getElementsByClassName("accordion");
+        let i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            const panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+               panel.style.display = "block";
+            }
+          }
+        );
+      }
+    </script>
+  </section>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row g-3">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div class="col-md-6 text-center mb-5">
+            <ul class="footer-links justify-content-end lead" >
+              <li><a href="/Jefcon_Associates" class="text-decoration-underline text-success">About us</a></li>
+              <li><a href="/services_footer" class="text-decoration-underline text-success">Services</a></li>
+              <li><a href="/project_footer" class="text-decoration-underline text-success">Projects</a></li>
+              <li><a href="/blogs" class="text-decoration-underline text-success">Blogs</a></li>
+              <li><a href="/contact" class="text-decoration-underline text-success">Contact</a></li>
+              <li><a href="/faq_footer" class="text-decoration-underline text-success">Faq</a></li>
+              <li><a href="/privacyPolicy" class="text-decoration-underline text-success">Privacy</a></li>
+            </ul>             
+          </div>
+        </div>
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card" style="background-color: #6d835c";>
+                <img src="images/jefcon-address.jpg" alt="team1" class="card-img-top">
+                <div class="card-body text-light lead">
+                  <span class="card-text placeholder-glow">
+                    <span class="placeholder col-6"></span>         
+                    <span class="placeholder col-7"><button class="btn btn-success" href="/contact" style="background-color: #6D835C;"><em>Contact us</em></button></span>
+                    <span class="placeholder col-4"><a class="btn btn-success" target="team" href="/Jefcon_more" style="background-color: #6D835C;" title="ENGR. JOHNCEE ONWUALU (FNSE, FNICE, FNIWE, P.E., R.ENG)">More... </a></span>
+                    <span class="placeholder col-6"></span>   
+                  </span> 
+                  <p></p>
+                  <p class="pt-3 text-decoration-underline">+234 805 582 720</p>
+                  <p class="text-decoration-underline">+234 805 5015 045</p>
+                  <p></p>
+                  <p class="text-decoration-underline mb-3"><em>https://jefconassociates.com</em></p>      
+                  <button class="btn btn-light" href="contact/"><em>info@jefcon&associates.com</em></button>         
+                  <p></p>  
+                  <p class="text-decoration-underline"><em> No. 11 Engr. John Chiegbuniwe Drive,</em></p>
+                  <p class="text-decoration-underline"><em> Off Mariam Babangida Way,</em></p>
+                  <p class="text-decoration-underline"><em>Phase V, Core Area,Asaba, </em></p>
+                  <p class="text-decoration-underline"><em>Delta State, Nigeria.</em> <a href="/contact"></a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card" style="background-color: #6d835c";>
+                <div class="card-body text-light lead">
+                  <h4 class="card-title text-light mt-3 text-decoration-underline"><em>Meta</em></h4>
+                  <div class="<ul class="list-unstyled>
+                    <li><a class="text-light" href="https://jefconassociates.com/wp-login.php"><em>Log in</em></a></li>
+                    <li><a class="text-light" href="https://jefconassociates.com/feed/"><em>Entries feed</em></a></li>
+                    <li><a class="text-light" href="https://jefconassociates.com/comments/feed/"><em>Comments feed</em></a></li>
+                    <li><a class="text-light" href="https://expressjs.com/"><em>Express.org</em></a></li>
+                    </ul>          
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card" style="background-color: #6D835C";>
+                <div class="card-body text-light lead">
+                  <div class="<ul class="list-unstyled> 
+                    <li><a class="text-light" href="/case_studies"><em>Case Studies</em></a></li>
+                    <li><a class="text-light" href="/construction_law"><em>Construction Law</em></a></li>
+                    <li><a class="text-light" href="/construction_technology"><em>Construction Technology</em></a></li>
+                    <li><a class="text-light" href="/consultancy_advisory"><em>Consultancy And Advisory Services</em></a></li>  
+                    <li><a class="text-light" href="/engDesign_simulation"><em>Engineering Design And Simulation</em></a></li>
+                    <li><a class="text-light" href="/category_eng_surveys"><em>Engineering Surveys</em></a></li>
+                    <li><a class="text-light" href="/cat_environmental"><em>Environmental</em></a></li>
+                    <li><a class="text-light" href="/cat_feasibility_Eco"><em>Feasibility And Economic Studies</em></a></li>  
+                    <li><a class="text-light" href="/industryNews_trend"><em>Industry News And Trends</em></a></li>
+                    <li><a class="text-light" href="/innovation_research"><em>Innovation And Research</em></a></li>
+                    <li><a class="text-light" href="/mech_elec_Plumbing"><em>Mechanical, Electrical, And Plumbing (MEP)</em></a></li>
+                    <li><a class="text-light" href="/pro_superv_cat"><em>Project Supervision And Management</em></a></li>  
+                    <li><a class="text-light" href="/proj_valuation_cost"><em>Project Valuation And Cost Control</em></a></li>
+                    <li><a class="text-light" href="/safety_regulations"><em>Safety And Regulations</em></a></li>
+                    <li><a class="text-light" href="/training_education"><em>Training And Education</em></a></li>
+                    <li><a class="text-light" href="/uncategorized"><em>Uncategorised</em></a></li>  
+                    </ul>          
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="copyright text-center text-light text-decoration-underline"><b>
+        © 2025 Jefcon & Associates Ltd...   All rights reserved.</b>
+      </div>
+    </div>
+  </footer>
+  <div id="root"></div>
+  <script type="module" src="/app.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+   <!-- Powered by Francis Ifeanyi Anwuzia - Website Creator | francisanwuzia3@gmail.com  +31648683382/  -->
+  </body>
+</html> 
