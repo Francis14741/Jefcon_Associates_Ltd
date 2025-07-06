@@ -1,0 +1,183 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="nav-brand" href="#"
+    ><img src="images/jefconlogo.jpeg" alt="jefconlogo" style="height: 50px; width: auto; float: left; margin-right: 8px;"></a
+    >
+    <button
+      class="navbar-toggler border-white"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarcontent"
+      aria-controls="navbarcontent"
+      >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbar" class="collapse navbar-collapse" id="navbarcontent">
+      <ul id="menu-main-menu" class="navbar-nav mt-2 ml-4 lead">
+        <li class="nav-item active">
+          <a class="nav-link text-success text-decoration-underline" href="/jefcon_associates"><b><em>Jefcon&Associates</em></b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-success text-decoration-underline"
+            data-toggle="dropdown"
+            href="./about"
+          ><b><em>About us</em></b></a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/team"><b><em>Team</em></b></a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/commitment"
+              ><b><em>Commitments And Strategy</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/privacyPolicy"
+              ><b><em>Privacy Policy</em></b></a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-success text-decoration-underline"
+            data-toggle="dropdown"
+            href="./services"
+            ><b><em>Services</em></b></a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/engineering_design"
+              ><b><em>Engineering Design And Construction</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/environmental_impact"
+              ><b><em>Environmental Impact Studies And Management</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/advisory_services"
+              ><b><em>Advisory Services In Engineering</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/engineering_surveys"
+              ><b><em>Engineering Surveys</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="feasibility_ecoStudies"
+              ><b><em>Feasibility And Economic Studies</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/project_supervision"
+              ><b><em>Project Supervision And Management</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/project_costing"
+              ><b
+              ><em>Project Costing, Valuation And Tender Analysis</em></b
+              ></a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-success text-decoration-underline"
+            data-toggle="dropdown"
+            href="./projects"
+          ><b>Projects</b></a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/recentProjects"
+              ><b><em>Recent Projects</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/pastProjects"
+              ><b><em>Past Projects</em></b></a
+              >
+            </li>  
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success text-decoration-underline" href="./blogs"><b><em>Blogs</em></b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success text-decoration-underline" href="./contact"><b><em>Contact</em></b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-success text-decoration-underline"
+            data-toggle="dropdown"
+            href="./Faq"
+          ><b><em>Faq</em><b></a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/faq_construction"
+              ><b><em>Faq About Construction Services</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/faq_stormwater"
+              ><b><em>Faq About Storm-water Management Services</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/faq_consultancy"
+              ><b><em>Faq About Consultancy Services</em></b></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/faq_participation"
+              ><b><em>Faq About Participation On Our Website</em></b></a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <form
+      id="search-form"
+      class="search-form my-2 my-lg-0"
+      role="search"
+      method="get"
+      action="/search"
+      >
+      <div class="input-group">
+        <input 
+          class="search-box pl-3"
+          id="input-box" 
+          type="text" 
+          placeholder="Search Website..." 
+          list="search-suggestions" 
+          autocomplete="off"
+          required
+          style="border-end-start-radius: 20%;"
+        />
+        <button
+          id="searchButton"
+          type="submit"
+          name="submit"
+          class="btn btn-outline-light text-light"
+          style="background-color: #6D835C;"
+        >
+          Search
+        </button>
+      </div>
+    </form>
+    <!-- <script>
+      {_id: 'id1', {about: "Team", "Commitments And Strategy", "Privacy Policy"}}
+      {_id: 'id2', {about: "Team", "Commitments And Strategy", "Privacy Policy"}}
+    </script> -->
+  </div>
+  <script src="autocomplete.js"></script>
+</nav>
