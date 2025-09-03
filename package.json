@@ -4,7 +4,9 @@
   "description": "Jefcon & Associates Ltd is an Engineering Consulting Firm with high precision GNSS data acquisition solutions with capacities for delivering various Civil Engineering Design Services, including Flood Vulnerability Studies, Modelling, Mapping, Storm Sewer and Flood Control Infrastructures, Buildings, Bridges and Road. With the experiences of highly trained Professional Engineers and Consultants pulled together, Jefcon provides high precision Mechanical, Electrical, Water Resources and Environmental Engineering services to Public, Private, Local and International economies. The company also provides Industrial Support Services to Oilfield production and facilities as well as Consultancy services in Project &amp; Facilities Management.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node app.js",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "seed": "node seeds/seedAll.js"  
   },
   "keywords": [],
   "author": "",
